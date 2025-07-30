@@ -57,7 +57,7 @@ def take_values():
     print("Enter the second number: ")
     operand2 = check_floats()
     if operand1 is None:
-        return [False, "Invalid value for the second number."]
+        return [False, "Invalid value for the second number."]#
     return operand1, operand2
 
 
