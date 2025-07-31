@@ -35,7 +35,7 @@ def  check_operator():
         print("\now! 🫨   Operator should be one of these:")
         for name, operation in operations: # List valid operations
             print(f"{name}: {operation}")
-        unknown_operator = input(f"\nAttempt {3 - i} / 3...Try again: ").strip()
+        unknown_operator = input(f"\nAttempt {i + 2} / 4...Try again: ").strip()
         i += 1
     if unknown_operator not in valid_operators:
         print("Too many invalid attempts.")
